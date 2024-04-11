@@ -1,0 +1,182 @@
+#Nav_bars{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 30px;
+    background-color: #f68b1e;
+    margin: -10px;
+}
+#Nav_middle{
+    display: flex;
+   
+}
+#Nav_last{
+    display: flex;
+    margin-right: 40px;
+}
+.Nav_link{
+    margin: 0 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.Nav_image{
+    width: 25px;
+}
+
+#Card_image{
+    width: 150px;
+    height: 210px;
+    padding-top: 10px;
+}
+#Card_imageDiv{
+    text-align: center;
+}
+#Card_mainDiv{
+    height: 400px;
+    width: 307px;
+    text-decoration: none;
+    background-color: white;
+    margin: 10px 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    /* text-align: center; */
+}
+#Card_texts{
+    margin-left: 20px;
+}
+#Card_title{
+    width: 290px;
+    height: 70px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+#Card_category{
+    color: black;
+    font-size: larger;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+}
+#Card_sizeDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 0;
+    color: black;
+}
+/* #Card_size{
+    font-size: 10px;
+    letter-spacing: 4px;
+    font-weight: 500;
+} */
+#Card_price{
+    font-size: 20px;
+    font-weight: 600;
+    color: black ;
+
+}
+#API_mainDiv{
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+    flex-wrap: wrap;
+    margin: 30px;
+    column-gap: 5px;
+    row-gap: 20px;
+}
+#Product_Details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0px;
+    /* text-align: center; */
+}
+#Product_image{
+    width: 500px;
+}
+#Product_firstLine{
+    display: flex;
+    justify-content: space-between;
+}
+.Product_btn1{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+#Product_loveImage{
+    width: 40px;
+}
+#Product_texts{
+    padding-top:90px ;
+    height: 100vh;
+    width: 700px;
+    margin-left: 120px;
+    /* background-color: #f68b1e; */
+}
+#Product_description{
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+span{
+    color: black;
+    font-size: larger;
+    font-weight: 600;
+}
+#Product_category{
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgb(126, 120, 120);
+    font-weight: 600;
+}
+#Product_title{
+    font-size: 30px;
+    font-weight: 700;
+}
+#Product_price{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(126, 120, 120);
+}
+#div{
+    display: flex;
+}
+#Product_btn{
+    background-color: #f68b1e;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+    width: 400px;
+    height: 60px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: medium;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#Product_btnImage{
+    width: 30px;
+    /* display: flex; */
+}
+/* #Product_btnImageDiv{
+    margin-left: 90px;
+} */
+#Product_ratingImage{
+    width: 50px;
+}
+#Card_cat{
+    font-weight: 500;
+    font-size: 10px;
+}
